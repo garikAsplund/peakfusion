@@ -2,7 +2,7 @@
 </script>
 
 <section
-	class="flex max-h-[60vh] flex-col gap-8 overflow-hidden bg-gradient-to-br from-teal-50 via-rose-50 to-orange-100 px-6 py-12 md:flex-row md:gap-12 md:px-0 md:py-0"
+	class="flex md:max-h-[60vh] flex-col gap-8 overflow-hidden bg-gradient-to-br from-teal-50 via-rose-50 to-orange-100 px-6 py-12 md:flex-row md:gap-12 md:px-0 md:py-0"
 	id="about"
 >
 	<!-- Right Side: Image -->
@@ -15,7 +15,7 @@
 	</div>
 	<!-- Left Side: Text Content -->
 	<div class="flex w-full items-center justify-center md:w-1/2">
-		<div class="w-3/5 space-y-6 text-center md:text-left">
+		<div class="md:w-3/5 space-y-6 text-center md:text-left w-full">
 			<h2 class="text-2xl leading-tight font-bold text-orange-700 md:text-3xl lg:text-4xl">
 				Making herbal soaps & skin care since ‘08.
 			</h2>

@@ -1,5 +1,5 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1498 396"
-class="h-36 w-auto">
+class="md:h-36 h-16 sm:h-24 w-auto">
 	<!-- <path
 		d="M0 0 C494.34 0 988.68 0 1498 0 C1498 130.68 1498 261.36 1498 396 C1003.66 396 509.32 396 0 396 C0 265.32 0 134.64 0 0 Z "
 		fill="#FEFEFE"
