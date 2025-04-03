@@ -8,9 +8,9 @@
   >
     <!-- Text Content (Order 2 on Mobile, 1 on Desktop) -->
     <div class="w-full md:w-1/2 order-2 md:order-1 flex justify-center md:justify-end">
-      <div class="w-full max-w-md space-y-6 text-center md:text-left">
+      <div class="w-full max-w-xl space-y-6 text-center md:text-left">
         <h1
-          class="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 leading-tight font-serif"
+          class="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 leading-tight font-[Rampart_One]"
         >
           Handmade Soaps
         </h1>

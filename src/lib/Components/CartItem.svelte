@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Assuming CartProduct is defined in or imported from '$lib/cartStore' or '$lib/types'
-	import type { CartProduct } from '$lib/cartStore.svelte';
+	import type { CartProduct } from '$lib/types';
 	import { Minus, Plus, Trash2 } from 'lucide-svelte';
   
 	// Define the expected props
