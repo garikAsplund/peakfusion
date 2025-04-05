@@ -1,21 +1,8 @@
-import { browser } from '$app/environment';
 import type { CartProduct, Product } from './types';
-
-const LOCAL_STORAGE_KEY = 'peak_fusion_cart'; 
 
 // --- Helper Functions ---
 function getInitialCart(): CartProduct[] {
-  if (!browser) return [];
-  const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
-  if (stored) {
-    try {
-      // Add validation if needed
-      return JSON.parse(stored);
-    } catch {
-      localStorage.removeItem(LOCAL_STORAGE_KEY);
-    }
-  }
-  return [];
+  return []; // Initial cart is empty - we'll load from layout
 }
 
 function formatPrice(price: number): string {
