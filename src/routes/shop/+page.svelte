@@ -14,7 +14,7 @@
       {#each products as product (product.id)}
         <div class="overflow-hidden rounded-xl bg-white shadow-lg w-full">
           <!-- Added w-full and max-w-xs to card -->
-          <a href="/products/{product.slug}" aria-label="View {product.name}">
+          <a href="/shop/{product.slug}" aria-label="View {product.name}">
             <!-- Link the image -->
             <img
               src={product.imageUrl}
@@ -23,7 +23,7 @@
             />
           </a>
           <div class="p-4">
-            <a href="/products/{product.slug}">
+            <a href="/shop/{product.slug}">
               <!-- Link the name -->
               <p
                 class="mb-2 truncate overflow-hidden text-lg font-medium text-gray-800 hover:text-sky-700"
@@ -48,4 +48,3 @@
       {/each}
     </div>
   </section>
-  
